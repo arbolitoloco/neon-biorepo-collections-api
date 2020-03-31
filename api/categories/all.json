@@ -1,0 +1,34 @@
+{
+    "categories": {
+        "Algae": {
+            "shortname": "Algae",
+            "fullname": "Algae (NEON-AL)",
+            "acronym": "NEON-AL"
+        },
+        "Environmental": {
+            "shortname": "Environmental",
+            "fullname": "Environmental (NEON-EN)",
+            "acronym": "NEON-EN"
+        },
+        "Invertebrates": {
+            "shortname": "Invertebrates",
+            "fullname": "Invertebrates (NEON-IV)",
+            "acronym": "NEON-IV"
+        },
+        "Microbes": {
+            "shortname": "Microbes",
+            "fullname": "Microbes (NEON-MI)",
+            "acronym": "NEON-MI"
+        },
+        "Plants": {
+            "shortname": "Plants",
+            "fullname": "Plants (NEON-PL)",
+            "acronym": "NEON-PL"
+        },
+        "Vertebrates": {
+            "shortname": "Vertebrates",
+            "fullname": "Vertebrates (NEON-VE)",
+            "acronym": "NEON-VE"
+        }
+    }
+}
