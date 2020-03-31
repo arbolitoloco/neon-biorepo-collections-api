@@ -1,11 +1,9 @@
 import os, csv, json
-# import pandas as pd
 
 inputfile = os.path.abspath("data/categories.csv")
 outputfile = os.path.abspath("api/categories/all.json")
-
-# df = pd.read_csv (inputpath)
-# df.to_json (outputpath, orient='table')
+print(inputfile)
+print(outputfile)
 
 # Read the CSV and add data to a dictionary
 data = {}
