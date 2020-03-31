@@ -14,7 +14,7 @@ with open(inputfile) as csvFile:
   for csvRow in csvReader:
     shortname = csvRow["shortname"]
     data[shortname] = csvRow
-# print(data)
+print(data)
 
 # Add data to a root node
 root = {}
@@ -23,3 +23,4 @@ root["categories"] = data
 # Write data to JSON file
 with open(outputfile, "w") as jsonFile:
   jsonFile.write(json.dumps(root, indent=4))
+print("Attempted to create JSON file")
