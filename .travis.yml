@@ -4,5 +4,4 @@ rvm:
  - jruby
 before_install:
    - gem install rake
-   - gem install bundler
 gemfile: gemfile
