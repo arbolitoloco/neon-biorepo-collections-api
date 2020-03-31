@@ -3,5 +3,7 @@ rvm:
  - 2.2
  - jruby
 before_install:
-   - gem install rake
+  - gem update --system
+  - gem install bundler
+  - gem install rake
 gemfile: gemfile
