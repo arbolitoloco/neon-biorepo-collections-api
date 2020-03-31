@@ -8,7 +8,7 @@ def remote_name
 end
 
 def branch_name
-  ENV.fetch("BRANCH_NAME", "gh-pages")
+  ENV.fetch("BRANCH_NAME", "api")
 end
 
 def uncommitted_changes?
@@ -49,7 +49,7 @@ file GH_PAGES_REF => BUILD_DIR do
       sh "git checkout --orphan #{branch_name}"
       FileUtils.touch("index.json")
       sh "git add ."
-      sh "git commit -m \"initial gh-pages commit\""
+      sh "git commit -m \"initial api commit\""
       sh "git push #{remote_name} #{branch_name}"
     end
   end
