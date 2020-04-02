@@ -1,0 +1,65 @@
+category,taxon,preservation,collid,institutioncode,collectioncode,fullname,neonsampleclass,description
+Algae,"Aquatic Macroalgae","Chemical Preservation [Clip Harvests]",50,NEON,AMAC-CPCH,"Aquatic Macroalgae Collection (Chemical Preservation [Clip Harvests])",apl_domainLab_in.sampleIDmacroalgae,NULL
+Algae,"Aquatic Macroalgae","Chemical Preservation [Point Counts]",73,NEON,AMAC-CPPC,"Aquatic Macroalgae Collection (Chemical Preservation [Point Counts])",apc_perTaxon_in.sampleIDmacroalgae,NULL
+Algae,"Aquatic Microalgae","Chemical Preservation",47,NEON,AMIC-CP,"Aquatic Microalgae Collection (Chemical Preservation)",ptx_taxonomy_in.preserved,NULL
+Algae,"Aquatic Microalgae",Freeze-dried,46,NEON,AMIC-FD,"Aquatic Microalgae Collection (Freeze-dried)",ptx_taxonomy_in.freezeDried,NULL
+Algae,"Aquatic Microalgae","Microscope Slides",49,NEON,AMIC-MS,"Aquatic Microalgae Collection (Microscope Slides)",ptx_taxonomy_in.slideID,NULL
+Algae,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Clip Harvests]",9,NEON,APLC-HVCH,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Clip Harvests])",apl_domainLab_in.sampleIDplant,"Subsample for aquatic plant taxonomy"
+Algae,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Point Counts]",7,NEON,APLC-HVPC,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Point Counts])",apc_perTaxon_in.sampleIDplant,"Subsample for aquatic plant point counts plant taxonomy"
+Algae,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Standard Sampling]",8,NEON,APLC-HVSS,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Standard Sampling])",apc_voucher_in.sampleID,"Sample for aquatic plant voucher"
+Environmental,"Particulate Mass Filter","Particulate Mass Filter Collection",41,NEON,PMFC,"Particulate Mass Filter Collection",dpm_fieldData_in.sampleID,"Particulate mass filter from automated collector"
+Environmental,Soil,"Soil Collection",30,NEON,SOIC,"Soil Collection",sls_bgcSubsampling_in.bgcArchiveID,"Soil subsample for archive"
+Environmental,"Wet Deposition","Wet Deposition Collection",42,NEON,WDC,"Wet Deposition Collection",wdp_collection_in.chemSubsampleID,"Wet deposition subsample for chemical analysis"
+Invertebrates,"Benthic Macroinvertebrate",Chironomids,22,NEON,BMIC-CH,"Benthic Macroinvertebrate Collection (Chironomids)",inv_persample_in.chironomidVialID,inv_persample_in.chironomidVialID
+Invertebrates,"Benthic Macroinvertebrate","DNA Extracts",61,NEON,BMIC-DNA,"Benthic Macroinvertebrate Collection (DNA Extracts)",inv_dnaExtraction_in.dnaSampleID,NULL
+Invertebrates,"Benthic Macroinvertebrate","Microscope Slides",53,NEON,BMIC-MS,"Benthic Macroinvertebrate Collection (Microscope Slides)",inv_pertaxon_in.slideID,NULL
+Invertebrates,"Benthic Macroinvertebrate",Oligochaetes,52,NEON,BMIC-OL,"Benthic Macroinvertebrate Collection (Oligochaetes)",inv_persample_in.oligochaeteVialID,NULL
+Invertebrates,"Benthic Macroinvertebrate","Taxonomy Reference Collection",48,NEON,BMIC-TR,"Benthic Macroinvertebrate Collection (Taxonomy Reference Collection)",inv_pervial_in.referenceID,NULL
+Invertebrates,"Benthic Macroinvertebrate","Taxonomy Subsample",57,NEON,BMIC-TS,"Benthic Macroinvertebrate Collection (Taxonomy Subsample)",inv_fielddata_in.sampleID,NULL
+Invertebrates,"Benthic Macroinvertebrate","Unsorted Bulk Sample",21,NEON,BMIC-UB,"Benthic Macroinvertebrate Collection (Unsorted Bulk Sample)",inv_fielddata_in.geneticSampleID,"Macroinvertebrate sample taken in the field"
+Invertebrates,Carabid,"Archive Pooling",11,NEON,CARC-AP,"Carabid Collection (Archive Pooling)",bet_archivepooling_in.subsampleID.bet,"Subsample of Carabid adults collected and sent to archive facility"
+Invertebrates,Carabid,"DNA Extracts",63,NEON,CARC-DNA,"Carabid Collection (DNA Extracts)",bet_expertTaxonomistID_in.geneticSampleID,NULL
+Invertebrates,Carabid,"Pinned Vouchers",39,NEON,CARC-PV,"Carabid Collection (Pinned Vouchers)",bet_IDandpinning_in.individualID,"Individual Carabid identified and pinned"
+Invertebrates,Carabid,"Trap Sorting",14,NEON,CARC-TS,"Carabid Collection (Trap Sorting)",bet_sorting_in.subsampleID.bet,"Subsample of Carabid adults collected from a beetle trap"
+Invertebrates,"Invertebrate Bycatch","Archive Pooling",13,NEON,IVBC-AP,"Invertebrate Bycatch Collection (Archive Pooling)",bet_archivepooling_in.subsampleID.ib,"Subsample of adult non-Carabid or larval invertebrates collected as bycatch and sent to archive faci"
+Invertebrates,"Invertebrate Bycatch","Trap Sorting",16,NEON,IVBC-TS,"Invertebrate Bycatch Collection (Trap Sorting)",bet_sorting_in.subsampleid.ib,"Subsample of adult non-Carabid or larval invertebrates collected as bycatch from a beetle trap"
+Invertebrates,Mosquito,"Bulk Identified",56,NEON,MOSC-BI,"Mosquito Collection (Bulk Identified)",mos_archivepooling_in.archiveVialIDList-off,NULL
+Invertebrates,Mosquito,"Bulk Unidentified",58,NEON,MOSC-BU,"Mosquito Collection (Bulk Unidentified)",mos_trapping_in.sampleID-off,NULL
+Invertebrates,Mosquito,"DNA Extracts",65,NEON,MOSC-DNA,"Mosquito Collection (DNA Extracts)",mos_barcoding_in.geneticSampleID,NULL
+Invertebrates,Mosquito,"Pathogen Extracts",59,NEON,MOSC-PE,"Mosquito Collection (Pathogen Extracts)",mos_pathogenpooling_in.testingVialID,NULL
+Invertebrates,Mosquito,"Pinned Vouchers",29,NEON,MOSC-PV,"Mosquito Collection (Pinned Vouchers)",mos_identification_in.individualIDList,"List of individual mosquitoes preserved as vouchers"
+Invertebrates,"NEON Biorepository Invertebrate","NEON Biorepository Invertebrate Collections at Arizona State University",4,ASU,NEON-IV,"NEON Biorepository Invertebrate Collections at Arizona State University",NULL,NULL
+Invertebrates,Tick,"Pathogen Extracts",75,NEON,TICC-PE,"Tick Collection (Pathogen Extracts)",tck_pathogenresults_in.testingID,NULL
+Invertebrates,Zooplankton,"DNA Extracts",62,NEON,ZOOC-DNA,"Zooplankton Collection (DNA Extracts)",zoo_dnaExtraction_in.dnaSampleID,NULL
+Invertebrates,Zooplankton,"Remaining Bulk Taxonomy Sample",45,NEON,ZOOC-RB,"Zooplankton Collection (Remaining Bulk Taxonomy Sample)",zoo_fieldData_in.sampleID,NULL
+Invertebrates,Zooplankton,"Taxonomy Reference Collection",55,NEON,ZOOC-TR,"Zooplankton Collection (Taxonomy Reference Collection)",zoo_perVial_in.referenceID,NULL
+Invertebrates,Zooplankton,"Unsorted Bulk Sample",60,NEON,ZOOC-UB,"Zooplankton Collection (Unsorted Bulk Sample)",zoo_fieldData_in.sampleID.dna,NULL
+Microbes,"Benthic Microbe","DNA Extracts",67,NEON,BEMC-DNA,"Benthic Microbe Collection (DNA Extracts)",mic_dnaExtraction_in.ambDnaSampleID,NULL
+Microbes,"Benthic Microbe","Sterivex Filters",5,NEON,BEMC-SF,"Benthic Microbe Collection (Sterivex Filters)",amb_fieldParent_in.archiveID,"Subsample for benthic microbes archive"
+Microbes,"Soil Microbe","Bulk Subsamples",31,NEON,SOMC-BS,"Soil Microbe Collection (Bulk Subsamples)","sls_soilCoreCollection_in.geneticArchiveSample1ID,sls_soilCoreCollection_in.geneticArchiveSample2ID,sls_soilCoreCollection_in.geneticArchiveSample3ID,sls_soilCoreCollection_in.geneticArchiveSample4ID,sls_soilCoreCollection_in.geneticArchiveSample5ID","Interchangeable soil subsample 1 for microbial sequencing analyses"
+Microbes,"Soil Microbe","DNA Extracts ",69,NEON,SOMC-DNA,"Soil Microbe Collection (DNA Extracts )",mic_dnaExtraction_in.soilDnaSampleID-off,NULL
+Microbes,"Surface Water Microbe","DNA Extracts",68,NEON,SWMC-DNA,"Surface Water Microbe Collection (DNA Extracts)",mic_dnaExtraction_in.amcDnaSampleID,NULL
+Microbes,"Surface Water Microbe","Sterivex Filters",6,NEON,SWMC-SF,"Surface Water Microbe Collection (Sterivex Filters)",amc_fieldCellCounts_in.archiveID,"Sample for surface water microbe archive"
+Plants,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Clip Harvests]",9,NEON,APLC-HVCH,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Clip Harvests])",apl_domainLab_in.sampleIDplant,"Subsample for aquatic plant taxonomy"
+Plants,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Point Counts]",7,NEON,APLC-HVPC,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Point Counts])",apc_perTaxon_in.sampleIDplant,"Subsample for aquatic plant point counts plant taxonomy"
+Plants,"Aquatic Plant, Bryophyte, and Lichen","Herbarium Vouchers [Standard Sampling]",8,NEON,APLC-HVSS,"Aquatic Plant, Bryophyte, and Lichen Collection (Herbarium Vouchers [Standard Sampling])",apc_voucher_in.sampleID,"Sample for aquatic plant voucher"
+Plants,"Terrestrial Plant","Belowground Biomass [Megapit]",76,NEON,TPLC-BBM,"Terrestrial Plant Collection (Belowground Biomass [Megapit])",mpr_perrootsample_in.archiveID,NULL
+Plants,"Terrestrial Plant","Belowground Biomass [Standard Sampling]",10,NEON,TPLC-BBS,"Terrestrial Plant Collection (Belowground Biomass [Standard Sampling])",bbc_chemistryPooling_in.bgcArchiveID,"Root subsample for archive"
+Plants,"Terrestrial Plant","Canopy Foliage",18,NEON,TPLC-CF,"Terrestrial Plant Collection (Canopy Foliage)",cfc_chemistrySubsampling_in.archiveSampleID,"Plant foliar subsample for archive"
+Plants,"Terrestrial Plant","Herbarium Vouchers",54,NEON,TPLC-HV,"Terrestrial Plant Collection (Herbarium Vouchers)",div_voucher_in.voucherSampleID.pla,NULL
+Plants,"Terrestrial Plant","Leaf Tissue",40,NEON,TPLC-LT,"Terrestrial Plant Collection (Leaf Tissue)",div_geneticarchive_in.geneticSampleID,NULL
+Plants,"Terrestrial Plant",Litterfall,23,NEON,TPLC-LF,"Terrestrial Plant Collection (Litterfall)",ltr_chemistrySubsampling_in.archiveSampleID,"Litter subsample for archive"
+Vertebrates,Fish,"DNA Extracts",66,NEON,FISC-DNA,"Fish Collection (DNA Extracts)",fsh_perFish_in.dnaSampleID,NULL
+Vertebrates,Fish,Vouchers,20,NEON,FISC-V,"Fish Collection (Vouchers)","fsh_perFish_in.voucherSampleID,fsh_nonTarget_in.voucherSampleID","Individual fish identified as a target taxon and collected as a voucher specimen"
+Vertebrates,"Herptile Voucher","Ground Beetle Sampling Bycatch Archive Pooling",12,NEON,HEVC-GBAP,"Herptile Voucher Collection (Ground Beetle Sampling Bycatch Archive Pooling)",bet_archivepooling_in.subsampleID.herp,"Subsample of herptiles collected as bycatch and sent to archive facility"
+Vertebrates,"Herptile Voucher","Ground Beetle Sampling Bycatch Trap Sorting",15,NEON,HEVC-GBTS,"Herptile Voucher Collection (Ground Beetle Sampling Bycatch Trap Sorting)",bet_sorting_in.subsampleID.herp,"Subsample of herptiles collected as bycatch from a beetle trap"
+Vertebrates,"Herptile Voucher","Small Mammal Sampling Bycatch",70,NEON,HEVC-SMMB,"Herptile Voucher Collection (Small Mammal Sampling Bycatch)",mam_voucher_in.voucherSampleID.herp,NULL
+Vertebrates,Mammal,"Blood Samples",24,NEON,MAMC-BL,"Mammal Collection (Blood Samples)",mam_pertrapnight_in.bloodSampleID,"Blood sample collected from a small mammal for pathogen analyses"
+Vertebrates,Mammal,"DNA Extracts",71,NEON,MAMC-DNA,"Mammal Collection (DNA Extracts)",TBD-off,NULL
+Vertebrates,Mammal,"Ear Tissue",25,NEON,MAMC-EA,"Mammal Collection (Ear Tissue)",mam_pertrapnight_in.earSampleID,"Ear punch sample collected from a small mammal for DNA barcoding"
+Vertebrates,Mammal,"Fecal Samples",26,NEON,MAMC-FE,"Mammal Collection (Fecal Samples)",mam_pertrapnight_in.fecalSampleID,"Fecal sample collected from a small mammal for physiological analyses"
+Vertebrates,Mammal,"Hair Samples",27,NEON,MAMC-HA,"Mammal Collection (Hair Samples)",mam_pertrapnight_in.hairSampleID,"Hair sample collected from a small mammal for potential isotopic analyses"
+Vertebrates,Mammal,"Vouchers [Ground Beetle Sampling Bycatch Archive Pooling]",64,NEON,MAMC-VGBA,"Mammal Collection (Vouchers [Ground Beetle Sampling Bycatch Archive Pooling])",bet_archivepooling_in.subsampleID.mam,NULL
+Vertebrates,Mammal,"Vouchers [Ground Beetle Sampling Bycatch Trap Sorting]",17,NEON,MAMC-VGBT,"Mammal Collection (Vouchers [Ground Beetle Sampling Bycatch Trap Sorting])",bet_sorting_in.subsampleID.mam,"Subsample of small mammals collected as bycatch from a beetle trap"
+Vertebrates,Mammal,"Vouchers [Standard Sampling at Diversity Plots]",19,NEON,MAMC-VDP,"Mammal Collection (Vouchers [Standard Sampling at Diversity Plots])",mam_voucher_in.voucherSampleID.mam,div_voucher_in.voucherSampleID.mam
+Vertebrates,Mammal,"Vouchers [Standard Sampling at Pathogen Plots]",28,NEON,MAMC-VPP,"Mammal Collection (Vouchers [Standard Sampling at Pathogen Plots])",mam_pertrapnight_in.voucherSampleID,"Voucher small mammal specimen"
