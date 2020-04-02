@@ -1,7 +1,7 @@
 import os, csv, json
 
 inputfile = os.path.abspath("data/categories.csv")
-outputfile = ("api/categories/all.json")
+outputfile = ("api/categories/index.json")
 os.makedirs(os.path.dirname(outputfile), exist_ok=True)
 
 # print(inputfile)
