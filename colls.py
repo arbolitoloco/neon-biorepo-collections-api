@@ -17,7 +17,7 @@ print(data)
 
 # Add data to a root node
 root = {}
-root["collections"] = data
+root["collections"] = [data]
 
 # Write data to JSON file
 with open(outputfile, "w") as jsonFile:
