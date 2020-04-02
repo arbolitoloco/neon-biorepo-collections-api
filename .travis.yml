@@ -12,3 +12,4 @@ deploy:
   keep_history: true
   on:
     branch: python
+  target_branch: gh-pages
